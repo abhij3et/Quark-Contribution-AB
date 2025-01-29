@@ -47,8 +47,9 @@ A **pull request** (PR) is a way to propose changes to a repository on GitHub. I
         {
           "name": "Your Name",
           "year": "First Year",
-          "department": "Your Department",
-          "fun fact": "(Optional)"
+          "dept": "Your Department",
+          "funfact": "A short and engaging fact about yourself or something related to your interests.",
+          "feedback": "Your feedback"
         }
     ]
    }
@@ -59,12 +60,13 @@ A **pull request** (PR) is a way to propose changes to a repository on GitHub. I
     "collaborators":[
         {
             "name": "John Doe",
-            "year": "SY",
-            "department": "CS",
-            "fun fact": "The first computer game was made in 1962! 🎮"
+            "year": "TY",
+            "dept": "CS",
+            "funfact": "The first computer game was made in 1962! 🎮",
+            "feedback": "Got to know how to generate pull requests on Github"
         }
     ]
-  }  
+   }
   ```
 -  After making the changes, check the status of modified files:
   ```bash
