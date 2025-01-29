@@ -3,8 +3,9 @@
         {
             "name": "John Doe",
             "year": "TY",
-            "department": "CS",
-            "feedback": ""
+            "dept": "CS",
+            "funfact": "The first computer game was made in 1962! 🎮",
+            "feedback": "Got to know how to generate pull requests on Github"
         }
     ]
    
