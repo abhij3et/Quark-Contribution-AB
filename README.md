@@ -37,10 +37,36 @@ A **pull request** (PR) is a way to propose changes to a repository on GitHub. I
   git checkout -b feature/add-new-functionality
   ```
 
-#### 4. **Make Changes**
+#### 4. Update the **colaborators.json** file
 
-- Edit the files as needed to implement your changes or features.
-- After making the changes, check the status of modified files:
+- Open the colaborators.json file in any text editor or IDE.
+- Add your details in the following format under the "colaborators" array:
+  ```bash
+  {
+    "collaborators":[
+        {
+          "name": "Your Name",
+          "year": "First Year",
+          "department": "Your Department",
+          "fun fact": "(Optional)"
+        }
+    ]
+   }
+  ```
+- Example Entry:
+  ```bash
+  {
+    "collaborators":[
+        {
+            "name": "John Doe",
+            "year": "SY",
+            "department": "CS",
+            "fun fact": "The first computer game was made in 1962! 🎮"
+        }
+    ]
+  }  
+  ```
+-  After making the changes, check the status of modified files:
   ```bash
   git status
   ```
