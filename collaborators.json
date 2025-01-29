@@ -1,6 +1,11 @@
 {
     "collaborators":[
-        
+        {
+            "name": "John Doe",
+            "year": "TY",
+            "department": "CS",
+            "feedback": ""
+        }
     ]
    
 }
